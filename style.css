@@ -1,0 +1,765 @@
+body {
+
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+    color: #473334;
+    white-space: nowrap;
+
+}
+
+
+@media screen and (min-width: 300px) and (max-width: 900px) {
+
+
+    .global {
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        align-items: flex-start;
+        align-items: center;
+        flex-direction: column;
+        background-image: url("./assets/TelaPrincipal.png");
+        height: 100vh;
+        
+    }
+    h1 {
+        margin-top: 1em;
+        font-size: 30px;
+    }
+
+    img {
+        width: 15em;
+        margin-bottom: 2em;
+
+    }
+/*div que engloba o relogio e a data*/
+    #main1 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 5px;
+    }
+/*relógio*/
+    .legTime {	
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        margin-top: 5px;
+        margin-right: 5px;
+        color: #473334CC;
+        white-space: nowrap;
+    }
+
+    .legTime p {
+        margin-top: 2px;
+        margin-bottom: 5px;
+        font-weight: bold;
+        margin-left:10px;
+    }
+
+/*data*/
+    .legGeral {
+        display: flex;
+        flex-direction: column;
+        margin-left: 20px;
+        width: 50%;
+        
+    }
+
+    .legGeral h2 {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+
+    
+/*	Section Page 2 - Mobile */
+
+    .page2 {
+        width: 100vw;
+        background-image: url("./assets/Tela 2.png");
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-family: "Inter", sans-serif;
+    }
+    .page2 h1 {
+        font-size: 30px;
+        white-space: wrap;
+        color: #1F1415;
+    }
+
+    .geral2 img{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .music {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    .music ul {
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+    }
+
+    .music ul li {
+        font-size: 16px;
+        color: #1D191A;
+        font-weight: bold;
+        margin-right: auto;
+
+    }   
+
+    /*	Section Page 3 - Mobile */
+
+    .page3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 100vh;
+        background-image: url("./assets/TelaMobile.png"); 
+        padding: 10px;
+    }
+
+    .page3 h2 {
+        margin-top: -6px; /* Mover o h2 mais para cima */
+        margin-bottom: 5px;
+    }
+    
+    .page3 p {
+        margin-top: -10px; /* Mover o p mais para cima */
+        margin-bottom: 0;
+    }
+
+    .blocoUm, .blocoDois {
+        display: flex;
+        flex-direction: row; 
+        gap: 10px;
+        background-color: #FFFFFF;
+        border-radius: 5px;
+        width: 95%; 
+        height: auto;
+        white-space: wrap;
+        box-shadow: 0px 0px 10px 4px rgba(8, 8, 8, 0.6);
+        margin-bottom: 20px;
+    }
+    .blocoUm .textos, .blocoDois .textos {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .blocoUm img, .blocoDois img {
+        margin-left: 10px;
+        width: 8em; 
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    .blocoUm p, .blocoDois p {
+        margin-top: 0;
+        margin-bottom: 2px;
+        font-weight: bold;
+        font-size: 14px; 
+    }
+
+    .page3 h1 {
+        font-size: 2em; 
+        color: #1F1415;
+        white-space: wrap;
+        margin-bottom: 10px;
+    }
+
+    .blocoUm img, .blocoDois img{
+        transform: translateY(15px)
+    }
+
+    #text{
+        font-size: 40px;
+    }
+
+    /* pagina 4 - Mobile */
+    .page4 {
+        height: 100vh;
+        min-width: 100vw;
+        background-image: url("./assets/TelaPrincipal.png");
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-family: "Inter", sans-serif;
+    }
+
+    .geral4{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .page4 img{
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .page4 h2 {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 4px;
+        font-size: 22px;
+        font-weight: bold;
+        color: #1F1415;
+    }
+
+    .geral4 p {
+        margin-left: 0.5em;
+        color: #1F1415CC ;
+        margin-top: 0;
+        margin-bottom: 0;
+        font-weight: 700;
+    }
+
+    .data {
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 5px;
+
+    }
+
+    .data p {
+        transform: translateY(1em);
+        margin-left: 90px;
+        margin-top: 9em;
+        margin-bottom: 5px;
+        font-weight: bold;
+        font-size: 18px;
+    }
+
+    /* pagina 5 - Mobile */
+
+    .page5 {
+        max-height: 100vh;
+        width: 100vw;
+        background-image: url("./assets/Tela6.png");
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-family: "Inter", sans-serif;
+        
+
+    }
+    .geral5 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+
+
+    .page5 h1 {
+        font-size: 2.5em;
+        color: #1F1415;
+        font-weight: bold;
+        white-space: wrap;
+        text-align: center; 
+        position: relative;
+        right: 1em;
+        margin-top: 15em;
+    }
+
+    .page5 img{
+        width: 13em;
+    }
+    #foto1{
+        margin-left: auto;
+        margin-right: auto;
+        width: 15em;
+        transform: translateY(-4em) rotate(10deg);
+    }
+    
+    #foto2{
+        margin-left: auto;
+        margin-right: auto;
+        width: 12em;
+        transform: translateY(-16em) translateX(5.5em);
+    }
+    
+    #foto3{
+        margin-left: auto;
+        margin-right: auto;
+        width: 15em;
+        transform: translateY(-26em) translateX(2em);
+    }
+
+    #foto4{
+        margin-left: auto;
+        margin-right: auto;
+        width: 15em;
+        transform: translateY(-35.75em) translateX(-4em);
+    }  
+
+
+    /*page 6 Mobile */
+
+    .page6 {
+        height: 100vh;
+        width: 100vw;
+        background-image: url("./assets/TelaMobile.png");
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;    
+        color: #1F1415;
+    }
+
+
+    .geral6 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .geral6 h1 {
+        font-size: 2.1em;
+        color: #1F1415;
+        font-weight: 700;
+        white-space: wrap;
+    }
+
+
+    .geral6 p {
+        font-size: 21px;
+        color:#1F1415E5;
+        margin-top: 0;
+        margin-bottom: 0;
+        font-weight: 700;
+}
+
+}
+
+
+
+@media screen and (min-width: 900px) and (max-width: 1920px) {
+
+    .page1{
+        height: 100vh;
+        width: 100vw;
+        background-image: url("./assets/TelaprincipalDesktop.png");
+        display: flex;
+        flex-direction: column;
+        align-items: center;    
+        justify-content: center;
+        
+    }
+
+    h1 {
+        font-size: 40px;
+        white-space: wrap;
+        margin-bottom: 1em;
+        margin-top: 1.5em;
+    }
+
+    .global {
+        display: flex;
+        flex-direction: column;
+        box-shadow: 0px 0px 10px 4px rgba(128, 128, 128, 0.6);
+        width: 30em;
+        height: 40em;
+        align-items: center;
+    }
+    
+
+
+    img {
+        width: 18em;
+        display: flex;
+        align-items: center;
+        align-self: center;
+
+    }    
+    #main1 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 25px;
+    }
+
+    .legTime {	
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 5px;
+        font-size: 20px;
+        color: #473334CC;
+        white-space: nowrap;
+
+    }
+
+    .legTime p {
+        margin-top: 2px;
+        margin-bottom: 5px;
+        font-weight: bold;
+    }
+
+    .legGeral {
+        display: flex;
+        flex-direction: column;
+        margin-left: 25px;
+        margin-top: 2px;
+    }
+
+    .legGeral h2 {
+        margin-top: 2px;
+        margin-bottom: 0px;
+    }
+
+    
+/*	Section Page 2 - Desktop */
+
+    .page2 {
+        height: 100vh;
+        width: 100vw;
+        background-image: url("./assets/Tela 2.png");
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        font-family: "Inter", sans-serif;
+    }
+
+
+    .page2 h1 {
+        font-size: 40px;
+        white-space: wrap;
+        margin-bottom: 1em;
+        margin-top: 1.5em;
+        color: #1F1415;
+
+    }
+
+
+    .geral2 img{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .music {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 5px;
+    }
+
+    .music ul {
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 5px;
+    }
+
+    .music ul li {
+        font-size: 22px;
+        color: #1D191A;
+        font-weight: bold;
+
+    }
+
+    /*	Section Page 3 - Desktop */
+    .page3 {
+        display: flex;
+        font-family: "Inter", sans-serif;
+        justify-content: center;
+        align-items: center;
+        align-self: center;
+        width: 100vw;
+        height: 100vh;
+        background-image: url("./assets/Pagina3.png");
+    }
+
+    .page3 h2 {
+        margin-bottom: 5px; /* Reduz o espaço abaixo do h2 */
+    }
+    
+    .page3 p {
+        margin-top: 2px; /* Reduz o espaço acima do p */
+        margin-bottom: 0; /* Elimina o espaço abaixo do p */
+    }
+    
+    .blocoUm {
+        display: flex;
+        flex-direction: row; 
+        gap: 10px;
+        background-color: #FFFFFF;
+        border-radius: 5px;
+        width: 25em;
+        height: 10.5em;
+        white-space: wrap;
+        box-shadow: 0px 0px 10px 4px rgba(8, 8, 8, 0.6);
+    }
+    
+    .blocoUm .textos {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .blocoUm img {
+        margin-left: 10px;
+        width: 10em;
+        gap: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    
+    .blocoUm p {
+        margin-top: 0;
+        margin-bottom: 2px;
+        font-weight: bold;
+        font-size: 17px;
+    }
+
+
+
+
+    .blocoDois {
+        display: flex;
+        flex-direction: row; 
+        gap: 10px;
+        background-color: #FFFFFF;
+        border-radius: 5px;
+        width: 25em;
+        height: 10.5em;
+        white-space: wrap;
+        margin-top: 20px;
+        box-shadow: 0px 0px 10px 4px rgba(8, 8, 8, 0.6);
+        font-weight: bold;
+    }
+
+    
+    .blocoDois .textos {
+        display: flex;
+        flex-direction: column;
+    }
+
+    
+    .blocoDois img {
+        margin-left: 10px;
+        width: 10.5em;
+        gap: 15px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        
+    }
+    
+    .blocoDois p {
+        margin-top: 2px;
+        margin-bottom: 2px;
+        font-weight: bold;
+        font-size: 17px;
+    }
+
+    .page3 h1 {
+        margin-top: 10px;
+        margin-bottom: 5px;
+        font-size: 3em;
+        color: #1F1415;
+        white-space: wrap;
+    }
+
+
+
+    /* pagina 4 - Desktop */
+
+
+    .page4 {
+        height: 100vh;
+        width: 100vw;
+        background-image: url("./assets/TelaprincipalDesktop.png");
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-family: "Inter", sans-serif;
+    }
+
+    .geral4{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        box-shadow: 0px 0px 10px 4px rgba(128, 128, 128, 0.6);
+        width: 26em;
+        height: 39em;
+    }
+
+    .page4 img{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .page4 h2 {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 2px;
+        font-size: 28px;
+        font-weight: bold;
+        color: #1F1415;
+    }
+
+    .geral4 p {
+        margin-left: 3.5em;
+        margin-right: auto;
+        font-size: 20px;
+        color: #1F1415CC ;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .data {
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 5px;
+
+    }
+
+    .data p {
+        transform: translateY(2em);
+        margin-top: 3em;
+        margin-bottom: 5px;
+        font-weight: bold;
+        font-size: 23px;
+
+    }
+
+
+
+    /* pagina 5 - Desktop */
+
+    .page5 {
+        min-height: 100vh;
+        width: 100vw;
+        background-image: url("./assets/Tela\ 2.png");
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-family: "Inter", sans-serif;
+
+    }
+    .geral5 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, 0.6);
+        width: 28em;
+        height: 48em;
+    }
+    
+
+
+    .page5 h1 {
+        margin-top: 12em;
+        font-size: 2.5em;
+        color: #1F1415;
+        font-weight: bold;
+        white-space: wrap;
+        text-align: center; 
+        position: relative;
+        top: 2.5em;
+        right: 2em;
+
+        
+    }
+
+
+    .page5 img{
+        width: 13em;
+    }
+    #foto1{
+        margin-left: auto;
+        margin-right: auto;
+        width: 20em;
+        transform: translateX(-2em) translateY(2em) rotate(10deg);
+    }
+    
+    #foto2{
+        margin-left: auto;
+        margin-right: auto;
+        width: 16em;
+        transform: translateY(-12em) translateX(6em);
+    }
+    
+    #foto3{
+        margin-left: auto;
+        margin-right: auto;
+        width: 20em;
+        transform: translateY(-22.5em) translateX(2em);
+    }
+
+    #foto4{
+        margin-left: auto;
+        margin-right: auto;
+        width: 20em;
+        transform: translateY(-35.3em) translateX(-3.97em);
+    }
+
+    .page6 {
+        height: 100vh;
+        width: 100vw;
+        background-image: url("./assets/Pagina3.png");
+        display: flex;
+        flex-direction: column;
+        font-family: "Inter", sans-serif;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .geral6 {
+        display: flex;
+        flex-direction: column;
+        width: 25em;
+        height: 40em;
+        box-shadow: 0px 0px 10px 4px rgba(8, 8, 8, 0.6);
+        align-items: center;
+    }
+
+    .geral6 h1 {
+        font-size: 2.25em;
+        color: #1F1415;
+        font-weight: 700;
+        white-space: wrap;
+    }
+
+    .geral6 p {
+        font-size: 24px;
+        color:#1F1415E5;
+        margin-top: 0;
+        margin-bottom: 0;
+        font-weight: 700;
+    }
+
+
+}
+
+
+
+
+

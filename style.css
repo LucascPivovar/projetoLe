@@ -12,7 +12,7 @@ body {
 @media screen and (min-width: 300px) and (max-width: 900px) {
 
 
-    .global {
+    .container {
         display: flex;
         margin-left: auto;
         margin-right: auto;
@@ -35,7 +35,7 @@ body {
 
     }
 
-    #main1 {
+    #mainInfo {
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -60,7 +60,7 @@ body {
     }
 
     /*data*/
-    .legGeral {
+    .legDate {
         display: flex;
         flex-direction: column;
         margin-left: 20px;
@@ -68,7 +68,7 @@ body {
         
     }
 
-    .legGeral h2 {
+    .legDate h2 {
         margin-top: 0px;
         margin-bottom: 0px;
     }
@@ -77,7 +77,7 @@ body {
     
 /*	Section Page 2 - Mobile */
 
-    .page2 {
+    .page-two {
         width: 100vw;
         height: 100vh;
         background-color: #da1a29;
@@ -122,7 +122,7 @@ body {
 
     /*	Section Page 3 - Mobile */
 
-    .page3 {
+    .page-three {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -133,17 +133,17 @@ body {
         padding: 10px;
     }
 
-    .page3 h2 {
+    .page-three h2 {
         margin-top: -6px; /* Mover o h2 mais para cima */
         margin-bottom: 5px;
     }
     
-    .page3 p {
+    .page-three p {
         margin-top: -10px; /* Mover o p mais para cima */
         margin-bottom: 0;
     }
 
-    .blocoUm, .blocoDois {
+    .block-one, .block-two {
         display: flex;
         flex-direction: row; 
         gap: 10px;
@@ -155,34 +155,34 @@ body {
         box-shadow: 0px 0px 10px 4px rgba(8, 8, 8, 0.6);
         margin-bottom: 20px;
     }
-    .blocoUm .textos, .blocoDois .textos {
+    .block-one .texts, .block-two .texts {
         display: flex;
         flex-direction: column;
         justify-content: center;
     }
 
-    .blocoUm img, .blocoDois img {
+    .block-one img, .block-two img {
         margin-left: 10px;
         width: 8em; 
         padding-top: 5px;
         padding-bottom: 5px;
     }
 
-    .blocoUm p, .blocoDois p {
+    .block-one p, .block-two p {
         margin-top: 0;
         margin-bottom: 2px;
         font-weight: bold;
         font-size: 14px; 
     }
 
-    .page3 h1 {
+    .page-three h1 {
         font-size: 2em; 
         color: #1F1415;
         white-space: wrap;
         margin-bottom: 10px;
     }
 
-    .blocoUm img, .blocoDois img{
+    .block-one img, .block-two img{
         transform: translateY(15px)
     }
 
@@ -191,7 +191,7 @@ body {
     }
 
     /* pagina 4 - Mobile */
-    .page4 {
+    .page-four {
         height: 100vh;
         min-width: 100vw;
         background-color: rgba(179,200,167,255);
@@ -203,19 +203,19 @@ body {
         font-family: "Inter", sans-serif;
     }
 
-    .geral4{
+    .container-four{
         display: flex;
         flex-direction: column;
         justify-content: center;
     }
 
-    .page4 img{
+    .page-four img{
         margin-left: auto;
         margin-right: auto;
 
     }
 
-    .page4 h2 {
+    .page-four h2 {
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 4px;
@@ -224,7 +224,7 @@ body {
         color: #1F1415;
     }
 
-    .geral4 p {
+    .container-four p {
         margin-left: 0.5em;
         color: #1F1415CC ;
         margin-top: 0;
@@ -232,7 +232,7 @@ body {
         font-weight: 700;
     }
 
-    .data {
+    .date-page-four {
         display: flex;
         flex-direction: column;
         margin-left: auto;
@@ -241,7 +241,7 @@ body {
 
     }
 
-    .data p {
+    .date-page-four p {
         transform: translateY(1em);
         margin-left: 90px;
         margin-top: 9em;
@@ -252,7 +252,7 @@ body {
 
     /* pagina 5 - Mobile */
 
-    .page5 {
+    .page-five {
         max-height: 100vh;
         width: 100vw;
         background-color: #da1a29;
@@ -264,7 +264,7 @@ body {
         
 
     }
-    .geral5 {
+    .container-five {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -272,7 +272,7 @@ body {
     
 
 
-    .page5 h1 {
+    .page-five h1 {
         font-size: 2.5em;
         color: #1F1415;
         font-weight: bold;
@@ -283,31 +283,31 @@ body {
         margin-top: 15em;
     }
 
-    .page5 img{
+    .page-five img{
         width: 13em;
     }
-    #foto1{
+    #foto-one{
         margin-left: auto;
         margin-right: auto;
         width: 15em;
         transform: translateY(-4em) rotate(10deg);
     }
     
-    #foto2{
+    #foto-two{
         margin-left: auto;
         margin-right: auto;
         width: 12em;
         transform: translateY(-16em) translateX(5.5em);
     }
     
-    #foto3{
+    #foto-three{
         margin-left: auto;
         margin-right: auto;
         width: 15em;
         transform: translateY(-26em) translateX(2em);
     }
 
-    #foto4{
+    #foto-four{
         margin-left: auto;
         margin-right: auto;
         width: 15em;
@@ -317,7 +317,7 @@ body {
 
     /*page 6 Mobile */
 
-    .page6 {
+    .page-six {
         height: 100vh;
         width: 100vw;
         background-color: #e3536c;
@@ -329,14 +329,14 @@ body {
     }
 
 
-    .geral6 {
+    .container-six {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
 
-    .geral6 h1 {
+    .container-six h1 {
         font-size: 2.1em;
         color: #1F1415;
         font-weight: 700;
@@ -344,7 +344,7 @@ body {
     }
 
 
-    .geral6 p {
+    .container-six p {
         font-size: 21px;
         color:#1F1415E5;
         margin-top: 0;
@@ -358,7 +358,7 @@ body {
 
 @media screen and (min-width: 900px) and (max-width: 1920px) {
 
-    .page1{
+    .page-one{
         height: 100vh;
         width: 100vw;
         background-image: url("./assets/TelaprincipalDesktop.png");
@@ -376,7 +376,7 @@ body {
         margin-top: 1.5em;
     }
 
-    .global {
+    .container {
         display: flex;
         flex-direction: column;
         box-shadow: 0px 0px 10px 4px rgba(128, 128, 128, 0.6);
@@ -394,7 +394,7 @@ body {
         align-self: center;
 
     }    
-    #main1 {
+    #mainInfo {
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -418,14 +418,14 @@ body {
         font-weight: bold;
     }
 
-    .legGeral {
+    .legDate {
         display: flex;
         flex-direction: column;
         margin-left: 25px;
         margin-top: 2px;
     }
 
-    .legGeral h2 {
+    .legDate h2 {
         margin-top: 2px;
         margin-bottom: 0px;
     }
@@ -433,7 +433,7 @@ body {
     
 /*	Section Page 2 - Desktop */
 
-    .page2 {
+    .page-two {
         height: 100vh;
         width: 100vw;
         background-image: url("./assets/Tela 2.png");
@@ -446,7 +446,7 @@ body {
     }
 
 
-    .page2 h1 {
+    .page-two h1 {
         font-size: 40px;
         white-space: wrap;
         margin-bottom: 1em;
@@ -456,7 +456,7 @@ body {
     }
 
 
-    .geral2 img{
+    .container-two img{
         margin-left: auto;
         margin-right: auto;
     }
@@ -485,7 +485,7 @@ body {
     }
 
     /*	Section Page 3 - Desktop */
-    .page3 {
+    .page-three {
         display: flex;
         font-family: "Inter", sans-serif;
         justify-content: center;
@@ -496,16 +496,16 @@ body {
         background-image: url("./assets/Pagina3.png");
     }
 
-    .page3 h2 {
+    .page-three h2 {
         margin-bottom: 5px; /* Reduz o espaço abaixo do h2 */
     }
     
-    .page3 p {
+    .page-three p {
         margin-top: 2px; /* Reduz o espaço acima do p */
         margin-bottom: 0; /* Elimina o espaço abaixo do p */
     }
     
-    .blocoUm {
+    .block-one {
         display: flex;
         flex-direction: row; 
         gap: 10px;
@@ -517,12 +517,12 @@ body {
         box-shadow: 0px 0px 10px 4px rgba(8, 8, 8, 0.6);
     }
     
-    .blocoUm .textos {
+    .block-one .texts {
         display: flex;
         flex-direction: column;
     }
     
-    .blocoUm img {
+    .block-one img {
         margin-left: 10px;
         width: 10em;
         gap: 10px;
@@ -530,7 +530,7 @@ body {
         padding-bottom: 5px;
     }
     
-    .blocoUm p {
+    .block-one p {
         margin-top: 0;
         margin-bottom: 2px;
         font-weight: bold;
@@ -540,7 +540,7 @@ body {
 
 
 
-    .blocoDois {
+    .block-two {
         display: flex;
         flex-direction: row; 
         gap: 10px;
@@ -555,13 +555,13 @@ body {
     }
 
     
-    .blocoDois .textos {
+    .block-two .texts {
         display: flex;
         flex-direction: column;
     }
 
     
-    .blocoDois img {
+    .block-two img {
         margin-left: 10px;
         width: 10.5em;
         gap: 15px;
@@ -570,14 +570,14 @@ body {
         
     }
     
-    .blocoDois p {
+    .block-two p {
         margin-top: 2px;
         margin-bottom: 2px;
         font-weight: bold;
         font-size: 17px;
     }
 
-    .page3 h1 {
+    .page-two h1 {
         margin-top: 10px;
         margin-bottom: 5px;
         font-size: 3em;
@@ -590,7 +590,7 @@ body {
     /* pagina 4 - Desktop */
 
 
-    .page4 {
+    .page-four {
         height: 100vh;
         width: 100vw;
         background-image: url("./assets/TelaprincipalDesktop.png");
@@ -601,7 +601,7 @@ body {
         font-family: "Inter", sans-serif;
     }
 
-    .geral4{
+    .container-four{
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -610,12 +610,12 @@ body {
         height: 39em;
     }
 
-    .page4 img{
+    .container-four img{
         margin-left: auto;
         margin-right: auto;
     }
 
-    .page4 h2 {
+    .page-four h2 {
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 2px;
@@ -624,7 +624,7 @@ body {
         color: #1F1415;
     }
 
-    .geral4 p {
+    .container-four p {
         margin-left: 3.5em;
         margin-right: auto;
         font-size: 20px;
@@ -633,7 +633,7 @@ body {
         margin-bottom: 0;
     }
 
-    .data {
+    .date-page-four {
         display: flex;
         flex-direction: column;
         margin-left: auto;
@@ -642,7 +642,7 @@ body {
 
     }
 
-    .data p {
+    .date-page-four p {
         transform: translateY(2em);
         margin-top: 3em;
         margin-bottom: 5px;
@@ -655,7 +655,7 @@ body {
 
     /* pagina 5 - Desktop */
 
-    .page5 {
+    .page-five {
         min-height: 100vh;
         width: 100vw;
         background-image: url("./assets/Tela\ 2.png");
@@ -666,7 +666,7 @@ body {
         font-family: "Inter", sans-serif;
 
     }
-    .geral5 {
+    .container-five {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -677,7 +677,7 @@ body {
     
 
 
-    .page5 h1 {
+    .page-five h1 {
         margin-top: 12em;
         font-size: 2.5em;
         color: #1F1415;
@@ -692,38 +692,38 @@ body {
     }
 
 
-    .page5 img{
+    .page-five img{
         width: 13em;
     }
-    #foto1{
+    #foto-one{
         margin-left: auto;
         margin-right: auto;
         width: 20em;
         transform: translateX(-2em) translateY(2em) rotate(10deg);
     }
     
-    #foto2{
+    #foto-two{
         margin-left: auto;
         margin-right: auto;
         width: 16em;
         transform: translateY(-12em) translateX(6em);
     }
     
-    #foto3{
+    #foto-three{
         margin-left: auto;
         margin-right: auto;
         width: 20em;
         transform: translateY(-22.5em) translateX(2em);
     }
 
-    #foto4{
+    #foto-four{
         margin-left: auto;
         margin-right: auto;
         width: 20em;
         transform: translateY(-35.3em) translateX(-3.97em);
     }
 
-    .page6 {
+    .page-six {
         height: 100vh;
         width: 100vw;
         background-image: url("./assets/Pagina3.png");
@@ -734,7 +734,7 @@ body {
         align-items: center;
     }
 
-    .geral6 {
+    .container-six{
         display: flex;
         flex-direction: column;
         width: 25em;
@@ -743,14 +743,14 @@ body {
         align-items: center;
     }
 
-    .geral6 h1 {
+    .container-six h1 {
         font-size: 2.25em;
         color: #1F1415;
         font-weight: 700;
         white-space: wrap;
     }
 
-    .geral6 p {
+    .container-six p {
         font-size: 24px;
         color:#1F1415E5;
         margin-top: 0;
